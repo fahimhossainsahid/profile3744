@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');*{margin:0;padding:0;}
+
+body{
+  font-family: 'Work Sans', sans-serif;
+  font-size:16px;
+}
+h1 h2 h3 h4 h5 h6{
+  font-family: 'Oswald', sans-serif; font-weight:500px;
+}
+section{
+  padding:70px 0px;
+}
+.white{
+  background-color:#f5f5f5;
+
+
+}
+.containear{
+  width:1100px;
+  margin:auto;
+  overflow:hidden;
+}
+.phone{
+  width:220px;
+  float:left;
+  border-left:1px solid #ddd;
+  padding:15px;
+
+}
+.phone i{
+  padding-right:12px;
+  color:#FF5216;
+
+}
+.email{
+  width:560px;
+  float:left;
+  padding:15px;
+  border-left:1px solid #ddd;
+
+}
+.email i{
+  padding-right:12px;
+  color:#FF5216;
+}
+.social i{
+  padding:15px;
+  border-left:1px solid #ddd;
+  display:inline;
+  float:left;
+  transition:.5s;
+}
+.fa-linkedin{
+  border-right:1px solid #ddd;
+}
+.fa-linkedin:hover{
+  color:#FF5216;
+}
+.fa-twitter:hover{
+  color:#FF5216;
+}
+.fa-facebook:hover{
+  color:#FF5216;
+}
+.logo{
+  width:150px;
+  float:left;
+  padding:23px 5px;
+}
+.menu{
+  width:505px;
+  float:right;
+  padding:37px 0px;
+
+}
+.fulmenu{
+  margin-bottom:0px !important;
+}
+.ulo li{
+  display:inline;
+  padding:0  13px;
+}
+.ulo li a{
+  text-decoration:none;
+  color:black;
+  transition:.5s;
+  font-size:16px;
+  font-weight:400;
+  font-family:Oswald;
+
+}
+.ulo li a:hover{
+  color:#FF5216;
+}
+#slider{
+  background:url(image/silder1.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  width:100%;
+}
+.heading{
+  color:white;
+  font-size:50px;
+  text-transform:uppercase;
+  font-weight:500 !important;
+  width:490px;
+  font-family:oswald;
+  letter-spacing:0.02em;
+  margin-bottom:30px;
+  margin-top:120px;
+}
+.sliderperagragh{
+  color:white;
+  width:415px;
+}
+.sliderperagragh P{
+  font-weight:500 !important;
+  margin-bottom:25px;
+
+}
+#btn{
+  color:white;
+  background:#FF5216;
+  padding:20px 45px;
+  text-transform:uppercase;
+  margin-bottom:120px;
+  border:none;
+}
+
+
+.wee{
+  background-color:#f2f2f2;
+  padding-bottom:70px;
+}
+
+.box{
+  width:250px;
+  height:300px;
+  margin-top:70px;
+  padding-top:25px;
+  float:left !important;
+  margin-right:23px;
+
+  background:white;
+}
+.box:hover{
+  background:#FF5200;
+}
+
+.iconbox{
+  text-align:center;
+  font-size:25px;
+  color:red;
+  padding-bottom:25px;
+}
+
+.headbox{
+  font-family:oswald;
+  font-size:13px !important;
+  text-align:center;
+  font-weight:500 !important;
+  padding-bottom:15px;
+}
+
+.desbox{
+  text-align:center;
+  line-height:24px;
+}
+
+.boxlink {
+  text-align:center;
+  padding-top:20px;
+}
+
+.boxlink a{
+  text-decoration:none;
+  color:#FF5216;
+}
+.fa-arrow-right{
+  padding-left:10px;
+  color:#FF5216;
+}
+.box:hover i{
+  color:white;
+}
+.box:hover h1{
+  color:white;
+}
+.box:hover .desbox{
+  color:white;
+}
+.box:hover a{
+  color:white;
+}
+#sec3{
+  height: 400px;
+}
+.black{
+  width:50%;
+  float:left;
+  margin:0 !important;
+  padding:0  !important;
+}
+.black img{
+  width:100%;
+  image-size:cover;
+}
+.part2{
+  width:48%;
+  float:left;
+  margin-left:20px;
+
+}
+.head h1{
+  color:black;
+  font-size:34px;
+  font-family:oswald;
+  font-weight:430 !important;
+  padding-bottom:15px;
+
+}
+.pre p{
+  width:510px;
+  line-height:1.5;
+
+}
+.three a{
+  text-decoration:none;
+  color:black;
+  padding-left:15px;
+}
+.three a:hover{
+  color:#FF5200;
+}
+.week:hover{
+  color:#FF5200;
+}
+.three{
+  width:220px;
+  height:140px;
+  float:left;
+}
+.week{
+  display:block;
+  padding-top:15px;
+}
+.six{
+  padding-top:25px;
+}
+.button submit{
+  background-color:#FF5200;
+  float:left;
+  padding:15px 20px;
+  margin-left:20px;
+  color:white;
+  border-radius:2px;
+
+}
+.button submit:hover{
+  background:black;
+  color:white;
+}
+.button{
+  font-weight:bold;
+}
+#whyus{
+  padding-bottom:0px !important;
+}
+.us{
+  background-image:linear-gradient(#0e0e0e73,#0e0e0e73),url(image/why-choose-us1.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding-bottom:0px !important;
+
+}
+.usbox{
+  color:white;
+  text-align:center;
+  width:260px;
+  padding-top:90px;
+  padding-bottom:90px;
+  float:left;
+  margin-right:15px;
+
+
+}
+.whyusicon{
+  font-size:50px;
+  padding-bottom:15px;
+
+}
+.whyusnumber{
+  font-size:30px;
+  padding-bottom:20px;
+}
+.whyustitle{
+  font-size:18px;
+  font-family:oswald;
+}
+#about{
+padding:0px 0px !important;
+background:#F2F2F2;
+}
+.headlne {
+    padding-top: 30px !important;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    font-family:oswald;
+
+}
+.iconab{
+  color:#FF5216;
+  text-align:center;
+  font-size:50px;
+  margin-top:-30px;
+  }
+  .prega{
+    text-align:center;
+    float:inherit;
+    padding-left:303px;
+    padding-right:302px;
+    width:490px;
+    padding-bottom:50px;
+  }
+  .set{
+      width:250px;
+      padding-top:25px;
+      padding-bottom:90px;
+      float:left;
+      margin-left:25px;
+}
+.imagea img{
+  width:100%;
+  repeat:no-repeat;
+  size:cover;
+
+}
+.hea h2{
+  font-size:20px;
+  font-family:oswald;
+  padding:12px 0px;
+  font-weight:500;
+}
+.pragra p{
+  line-height:22px;
+}
